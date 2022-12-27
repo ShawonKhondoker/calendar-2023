@@ -1,0 +1,66 @@
+
+i, h1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4, 121, 121);
+    font-size: 3em;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.calender, .flx{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 30px;
+    column-gap: 15px;
+    margin: 10px;
+    background-color: rgb(240, 231, 218);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 0px 10px 0px;
+}
+.data ,.day, .friday, .other-month{
+    background-color: rgb(137, 167, 137);
+    border-radius: 4px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    box-shadow: 5px 0px 10px 0px;
+}
+
+.data:hover{
+    background-color: burlywood;
+}
+#ho:hover{
+    background-color: rgb(176, 206, 206);
+}
+#hove:hover{
+    background-color: rgb(196, 214, 197);
+}
+#hov:hover{
+    background-color: rgb(168, 199, 95);    
+}
+
+.other-month{
+    background-color: rgb(167, 194, 194);
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius:4px ;
+}
+
+.friday{
+    background-color: rgb(223, 41, 41);font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 4px;
+
+}
